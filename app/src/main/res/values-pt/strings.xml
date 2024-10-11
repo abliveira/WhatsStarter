@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="generate_button">Gerar Link</string>
+    <string name="text_input_hint">Número de Telefone</string>
+    <string name="instruction_text">Insira um número de telefone abaixo e gere um link do WhatsApp para iniciar uma conversa instantaneamente, sem salvar o contato</string>
+</resources>
