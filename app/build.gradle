@@ -4,8 +4,8 @@ android {
     compileSdkVersion 29
     defaultConfig {
         applicationId "com.abliveira.whatsstarter"
-        minSdkVersion 15
-        targetSdkVersion 29
+        minSdkVersion 21
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
