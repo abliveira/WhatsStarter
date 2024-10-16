@@ -2,5 +2,7 @@
 <resources>
     <string name="generate_button">Gerar Link</string>
     <string name="text_input_hint">Número de Telefone</string>
-    <string name="instruction_text">Insira um número de telefone abaixo e gere um link do WhatsApp para iniciar uma conversa instantaneamente, sem salvar o contato</string>
+    <string name="instruction_text">Digite um número de telefone abaixo e clique em \"Gerar Link\" para iniciar uma conversa no WhatsApp instantaneamente, sem salvar o contato.\n\nOu, se preferir, copie um número de telefone para sua área de transferência, e a conversa será automaticamente iniciada.</string>
+    <string name="developed_text">desenvolvido por abliveira</string>
+    <string name="toast_starting_conversation">Iniciando conversa…</string>
 </resources>

@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name" translatable="false">WhatsStarter</string>
-    <string name="instruction_text">Enter a phone number below and generate a WhatsApp link to start a conversation instantly without saving the contact</string>
+    <string name="instruction_text">Enter a phone number below and click \"Generate Link\" to start a WhatsApp conversation instantly without saving the contact.\n\nOr, if you prefer, copy a phone number to your clipboard, and the conversation will automatically start.</string>
     <string name="text_input_hint">Phone number</string>
     <string name="generate_button">Generate Link</string>
     <string name="whats_url" translatable="false">https://api.whatsapp.com/send?phone=</string>
+    <string name="developed_text">developed by abliveira</string>
+    <string name="toast_starting_conversation">Starting conversation…</string>
 </resources>

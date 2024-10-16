@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -126,6 +127,9 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(whatsappLink));
             startActivity(intent);
         });
+
+        // Show a Toast message indicating the conversation is starting
+        Toast.makeText(this, R.string.toast_starting_conversation, Toast.LENGTH_SHORT).show();
 
         // Automatically open the WhatsApp link
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(whatsappLink));
