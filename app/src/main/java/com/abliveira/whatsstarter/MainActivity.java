@@ -66,16 +66,19 @@ public class MainActivity extends AppCompatActivity {
                 CharSequence clipboardText = clipData.getItemAt(0).getText();
 
                 if (clipboardText != null && clipboardText.length() > 0) {
-                    Log.d("MainActivity", "Phone number from clipboard set to input field: " + clipboardText);
-                    String formattedPhone = convertToPhoneNumber((String) clipboardText);
+                    String clipboardTextString = clipboardText.toString(); // Safe conversion to String
+                    Log.d("MainActivity", "Phone number from clipboard set to input field: " + clipboardTextString);
+
+                    String formattedPhone = convertToPhoneNumber(clipboardTextString);
                     if (isPhoneNumber(formattedPhone)) {
-                        phoneNumberInput.setText(clipboardText);
+                        phoneNumberInput.setText(clipboardTextString);
                         generateWhatsAppLink(formattedPhone);
                     }
                 }
             }
         }
     }
+
 
     public void onGenerateButtonCLick() {
         String phoneNumber = phoneNumberInput.getText().toString();
